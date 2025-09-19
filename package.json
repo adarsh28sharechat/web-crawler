@@ -1,0 +1,24 @@
+{
+  "name": "web-crawler-project",
+  "version": "1.0.0",
+  "description": "Web crawler for extracting drug pricing data",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "web-crawler",
+    "scraping",
+    "cheerio"
+  ],
+  "author": "",
+  "license": "MIT"
+}
